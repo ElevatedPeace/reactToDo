@@ -46,3 +46,16 @@
       padding: 0.7em;
       border-radius: 7px;
     }
+
+
+
+    @media screen and (max-width: 1024px) {
+      .header {
+        font-size: 1em;
+        
+      }
+      .todo-container {
+        width: fit-content;
+        width: 90vw;
+      }
+    }
